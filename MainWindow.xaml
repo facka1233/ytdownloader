@@ -249,7 +249,8 @@
                Height="200" 
                VerticalAlignment="Top" 
                Width="409" 
-               Source="Logo/youtube.png" Margin="78,39,0,0"/>
+               Source="Logo/youtube.png" 
+               Margin="78,39,0,0"/>
         <TextBlock x:Name="Youtube" 
                    HorizontalAlignment="Left" 
                    Margin="283,124,0,0" 
@@ -264,7 +265,8 @@
                  Text=" "
                  Margin="97,186,88,185"
                  FontSize="30" RenderTransformOrigin="0.544,0.979"/>
-        <Button Style="{DynamicResource Rounded2}" x:Name="btnVideo"
+        <Button Style="{DynamicResource Rounded2}" 
+                x:Name="btnVideo"
                 Content="Video"
                 Background="White"
                 Foreground="Black"

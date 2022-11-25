@@ -24,7 +24,29 @@ namespace kelompok_1
             InitializeComponent();
         }
 
-        private void btnplaywith_Click(object sender, RoutedEventArgs e)
+       
+
+        private void btnback_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PlayWithbtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Backbtn_Click(object sender, RoutedEventArgs e)
         {
 
         }

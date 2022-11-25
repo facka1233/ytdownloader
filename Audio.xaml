@@ -226,24 +226,24 @@
         <TextBlock HorizontalAlignment="Center" Margin="0,32,0,0" TextWrapping="Wrap" Foreground="White" FontSize="30" FontFamily="Arial" Text="Download is Finished!" Width="304"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,86,0,0" TextWrapping="Wrap" Foreground="White" FontSize="30" FontFamily="Arial" Text="Enjoy your Video!" VerticalAlignment="Top" Height="34" Width="248" Grid.RowSpan="2"/>
         <Button Style="{DynamicResource Rounded}"
-                x:Name="btnplaywith" 
-                Background="White"
-                Foreground="Black"
-                Content="Play with" 
-                Margin="325,223,325,73" 
+            x:Name="PlayWithbtn" 
+                Content="Play With" 
+                HorizontalAlignment="Center" 
+                Margin="0,207,0,0" 
+                Grid.Row="1" 
+                VerticalAlignment="Top" Height="55" 
+                Width="122" 
                 FontFamily="Arial Rounded MT Bold" 
                 FontSize="20" 
-                Click="btnplaywith_Click" 
-                Grid.Row="1"/>
-        <Button 
-                x:Name="btnback"
-                Foreground="Transparent"
-            BorderBrush="Transparent"
-                Content="" 
-                Margin="-18,-3,681,331" 
-                FontFamily="Arial Rounded MT Bold" 
-                FontSize="20" 
-                Click="btnback_Click" Grid.RowSpan="2">
+                Click="PlayWithbtn_Click"
+                />
+        <Button x:Name="Backbtn" Content="" 
+                BorderBrush="Transparent"
+                HorizontalAlignment="Left"
+                Margin="-17,6,0,0" 
+                VerticalAlignment="Top" 
+                Height="97" Width="128" 
+                Grid.RowSpan="2" Click="Backbtn_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/arrow.png"/>
             </Button.Background>

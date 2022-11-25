@@ -137,9 +137,6 @@
     <Resource Include="play-button.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo\youtube-logo-png-2069.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="pause.png" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +146,9 @@
     <Resource Include="logo\csharp 1.png" />
     <Resource Include="logo\wpf 1.png" />
     <Resource Include="logo\yt-dlp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo\youtube.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\CSVideoPlayer.1.0.3\build\CSVideoPlayer.targets" Condition="Exists('packages\CSVideoPlayer.1.0.3\build\CSVideoPlayer.targets')" />
